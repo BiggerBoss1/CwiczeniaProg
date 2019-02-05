@@ -20,9 +20,9 @@ namespace ZadanieTime
 
             var milis = time1.ChangeToMiliseconds();
             var time4 = Time.ChangeFromMiliseconds(milis);
-            Console.WriteLine(time4.Minus(time2));
+            Console.WriteLine(time4.Minus(time1));
 
-           
+            Console.WriteLine(time4 <= time3);
             
 
         }

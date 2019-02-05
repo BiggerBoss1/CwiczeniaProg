@@ -167,5 +167,71 @@ namespace ZadanieTime
 
             return ChangeFromMiliseconds(actualSeconds);
         }
+
+        public static Time operator + (Time argument1, Time argument2)
+        {
+            var result = argument1.Plus(argument2);
+            return result;
+
+        }
+
+        public static Time operator - (Time argument1, Time argument2)
+        {
+            var result = argument1.Minus(argument2);
+            return result;
+        }
+
+        public static bool operator == (Time argument1, Time argument2)
+        {
+            return argument1.Equals(argument2);
+            
+        }
+
+        public static bool operator != (Time argument1, Time argument2)
+        {
+            return !(argument1.Equals(argument2));
+        }
+
+        public static bool operator > (Time argument1, Time argument2)
+        {
+            if(argument1.CompareTo(argument2) == 1)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        public static bool operator < (Time argument1, Time argument2)
+        {
+            if(argument1.CompareTo(argument2) == -1)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        public static bool operator >= (Time argument1, Time argument2)
+        {
+            if (argument1.CompareTo(argument2) == 1 || argument1.CompareTo(argument2) == 0)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        public static bool operator <= (Time argument1, Time argument2)
+        {
+            if (argument1.CompareTo(argument2) == -1 || argument1.CompareTo(argument2) == 0)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+
     }
 }
