@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JebatSaljakibaszu", "JebatSaljakibaszu\JebatSaljakibaszu.csproj", "{02F36F71-01DF-4AEE-91F3-4DF0DA646DB0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZadanieTime", "JebatSaljakibaszu\ZadanieTime.csproj", "{02F36F71-01DF-4AEE-91F3-4DF0DA646DB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
